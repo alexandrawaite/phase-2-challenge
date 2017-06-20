@@ -1,4 +1,37 @@
-.section {
+.header {
   border: solid black;
-  width: 100px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+h2 {
+  float: left;
+}
+
+button {
+  float: right;
+}
+
+.sidebar {
+  position: fixed;
+  border: solid black;
+  width: 200px;
+  height: 100%;
+}
+
+ul {
+  float: left;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  margin-left: 200px;
+  width: auto;
+  height: 100%;
+  position: relative;
+  padding-left: 10px;
 }
