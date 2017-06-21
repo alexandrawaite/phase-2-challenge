@@ -14,9 +14,18 @@ function weekday(date) {
     return "Fri";
   } else if (weekday === 6) {
     return "Sat";
-  } else {
+  } else if (isNaN(weekday)) {
     return false;
-  }
+   }
 };
 
+function snippet(string, maxlength) {
+  var snippedString = string.substring(0, maxlength);
+  if (maxlength > string.length - 1) {
+    return string;
+  }
+  return snippedString + "...";
+}
+
+module.exports = snippet;
 module.exports = weekday;
