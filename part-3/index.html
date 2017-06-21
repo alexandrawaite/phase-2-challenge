@@ -6,22 +6,103 @@
     <link type="text/css" rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!-- Header -->
     <div class="header">
       <h2>Grocer</h2>
-      <button><h2>Cart</h2></button>
+      <button id="mn-crt-button">Cart (3)</button>
     </div>
+    <!-- Sidebar -->
     <div class="sidebar">
-      <h2>Sections</h2>
-      <hr>
-      <ul>
-        <li><a href="#">Produce</a></li>
-        <li><a href="#">Deli</a></li>
-        <li><a href="#">Frozen</a></li>
+      <div id="sections">
+        <p id="sections-header">Sections</p>
+      </div>
+      <ul class="links">
+        <li><a href="#produce">Produce</a></li>
+        <li><a href="#deli">Deli</a></li>
+        <li><a href="#frozen">Frozen</a></li>
       </ul>
     </div>
+    <!-- Main content -->
     <div class="content">
       <h1>Groceries</h1>
-      <p><em>Produce</em></p>
+      <section id="produce">
+        <p><em>Produce</em></p>
+        <section class="item-subcontent">
+          <p>Item name</p>
+          <p>Item name</p>
+          <p>Item name</p>
+          <p>Item name</p>
+          <p>Item name</p>
+          <p>Item name</p>
+        </section>
+        <section class="price-subcontent">
+          <p>$3.44</p>
+          <p>$3.44</p>
+          <p>$3.44</p>
+          <p>$3.44</p>
+          <p>$3.44</p>
+          <p>$3.44</p>
+        </section>
+        <section class="add-buttons">
+          <button class="add-cart-btn">Add to cart</button>
+          <button class="add-cart-btn">Add to cart</button>
+          <button class="add-cart-btn">Add to cart</button>
+          <button class="add-cart-btn">Add to cart</button>
+          <button class="add-cart-btn">Add to cart</button>
+          <button class="add-cart-btn">Add to cart</button>
+        </section>
+      <section id="deli">
+        <p><em>Deli</em></p>
+      </section>
+        <section class="item-subcontent">
+          <p>Item name</p>
+          <p>Item name</p>
+          <p>Item name</p>
+          <p>Item name</p>
+          <p>Item name</p>
+        </section>
+        <section class="price-subcontent">
+          <p>$3.44</p>
+          <p>$3.44</p>
+          <p>$3.44</p>
+          <p>$3.44</p>
+          <p>$3.44</p>
+        </section>
+        <section class="add-buttons">
+          <button class="add-cart-btn">Add to cart</button>
+          <button class="add-cart-btn">Add to cart</button>
+          <button class="add-cart-btn">Add to cart</button>
+          <button class="add-cart-btn">Add to cart</button>
+          <button class="add-cart-btn">Add to cart</button>
+        </section>
+      </section>
+        <p><em>Frozen</em></p>
+        <section id="frozen">
+        <section class="item-subcontent">
+          <p>Item name</p>
+          <p>Item name</p>
+          <p>Item name</p>
+          <p>Item name</p>
+          <p>Item name</p>
+          <p>Item name</p>
+        </section>
+        <section class="price-subcontent">
+          <p>$3.44</p>
+          <p>$3.44</p>
+          <p>$3.44</p>
+          <p>$3.44</p>
+          <p>$3.44</p>
+          <p>$3.44</p>
+        </section>
+        <section class="add-buttons">
+          <button class="add-cart-btn">Add to cart</button>
+          <button class="add-cart-btn">Add to cart</button>
+          <button class="add-cart-btn">Add to cart</button>
+          <button class="add-cart-btn">Add to cart</button>
+          <button class="add-cart-btn">Add to cart</button>
+          <button class="add-cart-btn">Add to cart</button>
+        </section>
+      </section>
     </div>
   </body>
 </html>

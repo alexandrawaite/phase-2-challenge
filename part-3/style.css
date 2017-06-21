@@ -1,37 +1,106 @@
 .header {
   border: solid black;
   width: 100%;
-  padding-bottom: 50px;
+  height: 50px;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
 }
 
+h1 {
+  font-size: 50px;
+}
+
+/* Grocer site title */
 h2 {
   float: left;
+  margin: 10px 10px;
 }
 
-button {
+#mn-crt-button {
   float: right;
+  font-size: 12px;
+  margin: 10px 10px;
+  padding: 10px;
 }
 
 .sidebar {
   position: fixed;
+  margin-top: 46px;
   border: solid black;
   width: 200px;
   height: 100%;
+  left: 0;
 }
 
-ul {
+#sections-header {
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+#sections {
+  border-bottom: solid black;
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.links {
+  position: static;
   float: left;
+  height: 50%;
+  width: 100%;
+  padding-right: 100px;
   list-style: none;
 }
 
 a {
+  margin-left: -30px;
   text-decoration: none;
+  color: black;
 }
 
 .content {
   margin-left: 200px;
   width: auto;
-  height: 100%;
-  position: relative;
-  padding-left: 10px;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.item-subcontent, .price-subcontent {
+  display: inline-block;
+}
+
+.price-subcontent {
+  padding-left: 50px;
+}
+
+.add-buttons {
+  float:right;
+  margin-top: 20px;
+  display:inline-grid;
+}
+
+.add-cart-btn {
+  padding: 10px;
+  margin-bottom: 14px;
+  margin-right: 140px;
+  font-size: 12px;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+.item-subcontent p, .price-subcontent p {
+  margin: 30px;
+}
+
+#produce, #deli, #frozen {
+    padding-top: 50px;
+    margin-top: -50px;
 }
