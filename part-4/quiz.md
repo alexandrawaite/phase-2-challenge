@@ -40,7 +40,7 @@
 
 * What keyboard shortcut do you use to split the screen in your terminal?
 
-  * `cmd` + `d` to split the screen vertically or `cmd` + `d` to split the screen horizontally.
+  * `cmd` + `d` to split the screen vertically or `shift` + `cmd` + `d` to split the screen horizontally.
 
 
 * When a terminal command completes, how can you tell if it was successful or not?
