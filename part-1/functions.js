@@ -1,5 +1,5 @@
 function weekday(date) {
-  let weekday = date.getDay();
+  let weekday = new Date(date).getDay();
   if (weekday === 0) {
     return "Sun";
   } else if (weekday === 1) {
@@ -21,11 +21,11 @@ function weekday(date) {
 
 function snippet(string, maxlength) {
   var snippedString = string.substring(0, maxlength);
-  if (maxlength > string.length - 1) {
+  if (maxlength > string.length) {
     return string;
   }
   return snippedString + "...";
-}
+};
 
 module.exports = snippet;
 module.exports = weekday;
