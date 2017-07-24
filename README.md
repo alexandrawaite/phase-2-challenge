@@ -13,19 +13,19 @@ Skills covered:
 
 Each requirement has a point value. A fully complete requirement gets full points; partially complete requirements get partial points; incomplete requirements get no points. Completeness is determined by calculating points earned divided by total points available.
 
-#### General Requirements
+## General Requirements
 
 - [ ] **10**: Solution is in a public GitHub repository called phase-2-challenge.
 - [ ] **10**: Solution repository has 4 folders: part-1, part-2, and part-3, and part-4.
 - [ ] **20**: Git history shows frequent commits.
 
-#### Part 1: Write tests and solutions for these functions
+### Part 1: Write tests and solutions for these functions
 
 For the following exercises, write your functions in a file called `part-1/functions.js` and your tests in a file called `part-1/tests.js`.
 
 You can use whichever testing tools you prefer: `console.assert()` (builtin to Node), Mocha and Chai, Jasmine, etc.
 
-##### Show a weekday
+#### Show a weekday
 
 Write a function `weekday(date)` to find the weekday for a given Date object, returning either 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', or 'Sun'.
 
@@ -36,14 +36,14 @@ weekday(date) // returns "Mon"
 
 weekday(new Date(2017, 5, 15)) // returns "Thu"`
 
-###### Requirements
+#### Requirements
 
 - [ ] **10**: A test using expected/valid inputs for the `weekday()` function is written in `tests.js`.
 - [ ] **10**: A test using unexpected/invalid inputs for the weekday() function is written in `tests.js`.
 - [ ] **30**: Correct implementation of the `weekday()` is defined in `functions.js`.
 - [ ] **10**: Tests for `weekday()` are passing.
 
-##### Get a snippet from text
+#### Get a snippet from text
 
 Write a function `snippet(string, maxlength)` that shortens the string given to the `maxlength` and adds the ellipsis character ("…") to the end of string, and then returns the shortened string. If the string is shorter than the `maxlength`, just return the string unmodified.
 
@@ -53,14 +53,14 @@ snippet("For the following exercises,", 10) // => "For the fo…"
 snippet("Hello, world!", 20) // => "Hello, world!"
 ```
 
-###### Requirements
+#### Requirements
 
 - [ ] **10**: A test using expected/valid inputs for the `snippet()` function is written in `tests.js`.
 - [ ] **10**: A test using unexpected/invalid inputs for the `snippet()` function is written in `tests.js`.
 - [ ] **30**: Correct implementation of the `snippet()` is defined in `functions.js`.
 - [ ] **10**: Tests for `snippet()` are passing.
 
-##### Number of properties
+#### Number of properties
 
 Write a function `numProps(obj)` that returns the number of properties an object has. Ignore symbolic properties and count only the "own properties" (not inherited) of the object.
 
@@ -76,14 +76,14 @@ numProps(friend) // => 3
 numProps({}) // => 0
 ```
 
-###### Requirements
+#### Requirements
 
 - [ ] **10**: A test using expected/valid inputs for the numProps() function is written in tests.js.
 - [ ] **10**: A test using unexpected/invalid inputs for the numProps() function is written in tests.js.
 - [ ] **30**: Correct implementation of the numProps() is defined in functions.js.
 - [ ] **10**: Tests for numProps() are passing.
 
-##### Filter between
+#### Filter between
 
 Write a function `filterBetween(array, min, max)` that takes an array of numbers, a `min` value, and a `max` value. It returns a new array containing only the elements that are greater than or equal to `min` and less than or equal to `max`.
 
@@ -94,14 +94,14 @@ Example:
 filterBetween(arr, 3, 6) // => [3, 4, 5, 6]
 filterBetween(arr, 5, 10) // => [5, 6, 7]`
 
-###### Requirements
+#### Requirements
 
 - [ ] **10**: A test using expected/valid inputs for the filterBetween() function is written in tests.js.
 - [ ] **10**: A test using unexpected/invalid inputs for the filterBetween() function is written in tests.js.
 - [ ] **30**: Correct implementation of the filterBetween() is defined in functions.js.
 - [ ] **10**: Tests for filterBetween() are passing.
 
-#### Part 2: Extract data from JSON file
+### Part 2: Extract data from JSON file
 
 Write a Node.js script to search for data from a JSON file.
 
@@ -155,12 +155,12 @@ Finding clients in state "Maryland"...
 }]
 ```
 
-###### Requirements
+#### Requirements
 
 - [ ] **40**: searchByName.js script prints the client id and rep_name for all clients whose rep_name starts with the provided name argument.
 - [ ] **40**: searchByState.js script prints the client id, rep_name, company, city, and state that for all clients whose state matches the provided state argument.
 
-##### Part 3: HTML layout for grocery store
+### Part 3: HTML layout for grocery store
 
 Write the HTML & CSS to layout a page for an online grocery store.
 
@@ -168,10 +168,9 @@ You only need to write HTML & CSS. No JavaScript or web server is required.
 
 Design a layout to match the following wireframe:
 
-![main page]
-(https://user-images.githubusercontent.com/709100/26839845-3dd07942-4ab2-11e7-944e-2da0acd695bf.png)
+![main page](https://user-images.githubusercontent.com/709100/26839845-3dd07942-4ab2-11e7-944e-2da0acd695bf.png)
 
-###### Requirements
+#### Requirements
 
 - [ ] **10**: All files are stored under the part-3/ folder
 - [ ] **20**: No third party CSS libraries are used (all code must be written from scratch)
@@ -185,7 +184,7 @@ Design a layout to match the following wireframe:
 - [ ] **20**: Clicking on a section in the "Sections" sidebar will jump to that section
 - [ ] **10**: Main content organizes all grocery items by section
 
-##### Part 4: Quiz time!
+### Part 4: Quiz time!
 
 Copy the questions below into a file `part-4/quiz.md`. Then, write your answer to each question directly below it.
 
